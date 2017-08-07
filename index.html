@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="catDog">
+	<head>
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+
+
+	<body>
+		<nav>
+			<a href="#!/dog">Dog</a>
+			<a href="#!/dog2">Dog #2</a>
+			<a href="#!/cat">Cat</a>
+		</nav>
+
+		<main>
+			<ng-view></ng-view>
+		</main>
+
+		<script src="angular.min.js"></script>
+		<script src="angular-route.min.js"></script>
+
+		<script src="app.js"></script>
+	</body>
+</html>
