@@ -5,21 +5,22 @@
 		<link rel="stylesheet" type="text/css" href="styles.css">
 	</head>
 
+	<div id="contain">
+		<body>
+			<nav>
+				<a href="#!/dog">Dog</a>
+				<a href="#!/dog2">Dog #2</a>
+				<a href="#!/cat">Cat</a>
+			</nav>
 
-	<body>
-		<nav>
-			<a href="#!/dog">Dog</a>
-			<a href="#!/dog2">Dog #2</a>
-			<a href="#!/cat">Cat</a>
-		</nav>
+			<main>
+				<ng-view></ng-view>
+			</main>
 
-		<main>
-			<ng-view></ng-view>
-		</main>
+			<script src="angular.min.js"></script>
+			<script src="angular-route.min.js"></script>
 
-		<script src="angular.min.js"></script>
-		<script src="angular-route.min.js"></script>
-
-		<script src="app.js"></script>
-	</body>
+			<script src="app.js"></script>
+		</body>
+	</div>
 </html>

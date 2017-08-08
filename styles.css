@@ -1,17 +1,49 @@
 img {
 	width:400px;
-	height:auto;
+	
+}
+
+#contain {
+	background-color:royalblue;
+	height:100%;
+	border-radius: 15px 15px 15px 15px;
+}
+
+body {
+	background-color:darkblue;
+}
+
+.size {
+	width:500px;
+	margin-bottom:19.5%;
 }
 
 nav {
 	text-align:center;
-	border:1px solid;	
+	border:1.5px outset;	
+	margin:0 4% 0 4%;
 }
 
 a {
 	font-size:28px;
-	padding:0 5% 0 5%;
+	padding:0 11% 0 11%;
 	background-color:lightcyan;
-	border:0.5px dashed;
+	border:0.25px solid;
+	margin:1%;
+	border-radius:10px 10px 10px 10px;
+	text-decoration: none;
+}
 
+a:hover {
+	background-color:cyan;
+	/*text-decoration:;*/
+}
+ 
+div {
+	margin:0 8% 0 8%;
+}
+
+#husky, #shepherd, #cat {
+	text-align: center;
+	margin:auto;
 }
